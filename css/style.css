@@ -17,16 +17,15 @@ body{
 .buttom{
     padding: 10px;
     border-radius: 25px;
-    border: none;
+    border: none;  
 }
 
 /*------------
     HEADER
 ------------*/
-
 header{
     background-color: #3161e0;
-    position: fixed;
+    width: 100%;
     z-index: 10;
 }
 
@@ -34,7 +33,7 @@ header{
     max-width: 1920px;
     margin: auto;
     position: relative;
-    padding: 30px 0px 10px;  
+    padding: 30px 0px 10px; 
 }
 
 .logo{
@@ -45,7 +44,7 @@ header{
 .main-nav{
     display: inline-block;
     position: absolute;
-    left: calc(100% / 3);
+    left: calc(100% / 3); 
 }
 
 .main-nav ul li{
@@ -60,7 +59,12 @@ header{
     font-weight: bold;
 }
 
-.buttom{
+.buttom-header{
+    vertical-align: middle;
     position: absolute;
     right: 0px;
 }
+
+/*------------
+    HERO
+------------*/
