@@ -152,3 +152,23 @@ h2{
     float: right;
 }
 
+.last-section{
+    background-color: #f6f6f6; 
+    text-align: center;
+    font-size: 25px;
+}
+
+.stars{
+    display: inline-block;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 100px;
+    padding: 40px;
+}
+
+.section-buttom{
+    background-color: #8ea1e1;
+    color: white;
+    font-size: 25px;
+}
