@@ -110,11 +110,16 @@ h1{
 /*------------
     MAIN
 ------------*/
+.white-section{
+    background-color: white;
+    margin-bottom: 200px;
+}
 
 .section-container{
-    width: 1920px;
+    width: 1700px;
     margin: auto;
     margin-top: 150px;
+    padding: 200px;
 }
 
 h2{
@@ -131,3 +136,18 @@ h2{
     width: 25%;
     font-size: 30px;
 }
+
+.gray-section{
+    background-color: #f6f6f6;
+}
+
+.g-col-sx{
+    float: left;
+    width: 25%;
+    font-size: 30px;
+}
+
+.g-col-dx{
+    float: right;
+}
+
