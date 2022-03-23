@@ -20,6 +20,12 @@ body{
     border: none;  
 }
 
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
 /*------------
     HEADER
 ------------*/
@@ -27,6 +33,7 @@ header{
     background-color: #3161e0;
     width: 100%;
     z-index: 10;
+    position: fixed;
    
 }
 
@@ -51,7 +58,7 @@ header{
 .main-nav ul li{
     display: inline-block;
     vertical-align: middle;
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 .main-nav ul li a{
@@ -83,6 +90,7 @@ header{
   margin: auto;
   font-size: 27px;
   line-height: 40px;
+  padding-top: 50px;
 }
 h1{
     font-size: 60px;
@@ -90,8 +98,8 @@ h1{
 }
 
 .buttom-hero{
-    font-size: 20px;
-    margin: 50px 10px 325px;
+    font-size: 25px;
+    margin: 50px 10px 270px;
 }
 
 .buttom-hero:last-of-type{
@@ -99,3 +107,27 @@ h1{
     background-color: #23272a;
 }
 
+/*------------
+    MAIN
+------------*/
+
+.section-container{
+    width: 1920px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.col-sx{
+    float: left;
+}
+
+.col-dx{
+    float: right;
+    width: 25%;
+    font-size: 30px;
+}
