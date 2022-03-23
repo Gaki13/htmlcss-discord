@@ -15,7 +15,7 @@ body{
 }
 
 .buttom{
-    padding: 10px;
+    padding: 15px 20px;
     border-radius: 25px;
     border: none;  
 }
@@ -27,6 +27,7 @@ header{
     background-color: #3161e0;
     width: 100%;
     z-index: 10;
+   
 }
 
 .nav-container{
@@ -63,8 +64,38 @@ header{
     vertical-align: middle;
     position: absolute;
     right: 0px;
+    font-size: 15px;
 }
 
 /*------------
     HERO
 ------------*/
+.hero{
+    background-image: url(../img/jumbo.png);
+    background-size: cover ;
+    width: 100%;    
+}
+
+.box-content{
+  text-align: center;
+  color: white; 
+  width: 1000px; 
+  margin: auto;
+  font-size: 27px;
+  line-height: 40px;
+}
+h1{
+    font-size: 60px;
+    padding: 150px 0 100px;
+}
+
+.buttom-hero{
+    font-size: 20px;
+    margin: 50px 10px 325px;
+}
+
+.buttom-hero:last-of-type{
+    color: white;
+    background-color: #23272a;
+}
+
